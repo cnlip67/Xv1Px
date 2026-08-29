@@ -49,12 +49,10 @@ local zbgzuiTab = Window:Tab({ Title = "做脚本工具", Icon = "keyboard" })
 local deltaUITab = Window:Tab({ Title = "忍者注入器改ui", Icon = "sparkles" })
 local skidTab = Window:Tab({ Title = "script kid最爱", Icon = "trash" })
 local VRADLTab = Window:Tab({ Title = "VR", Icon = "eye" })
-MainTab:Button({
-local GameTab = Window:Tab({ Title = "栽赃", Icon = "user" })
 
-
-
+local zzTab = Window:Tab({ Title = "栽赃", Icon = "user" })
 local GameTab = Window:Tab({ Title = "最强战场", Icon = "zap" })
+    MainTab:Button({
     Title = "复制q群1032142349",
     Desc = "复制q群号",
     Callback = function()
